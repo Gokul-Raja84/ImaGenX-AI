@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://gokul-raja84.github.io/ImaGenX-AI",
+  "homepage": "https://gokul-raja84.github.io/ImaGenX-AI/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
