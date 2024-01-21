@@ -71,4 +71,15 @@ A user-friendly web application that leverages Google's Most Advanced Text To Im
 - **Prompt Compliance:**
   - Some prompts may not comply with Google's laws, leading to errors. Check the browser console for details.
 
+## Acknowledgments
+Feel Free to Explore and Experiment, I encourage you to explore the project, expriment with different approaches, and contribute to improving visualizations, and UI. Your contributions and innovative ideas can be pivotal in advancing this project's effectiveness and generating valuable outcomes
+
+
+## Contact
+For feedback, suggestions, or collaborations, feel free to connect with me :
+
+Contact Me - Gokul Raja
+
+Email - gokulraja840@gmail.com
+
 Feel free to reach out if you encounter any issues or have further questions. Thank you!
