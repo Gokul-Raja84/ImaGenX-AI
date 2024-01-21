@@ -1,37 +1,74 @@
-# Imagen2 API Demonstration
 
-![Wallpaper](./src/assets/image1.png)
-![Logo](./src/assets/image2.png)
-![Iron Man](./src/assets/image3.png)
+# ImaGenX-AI
 
-A clean user-interface that lets users enter their prompt, which sends a request to Imagen 2 API (Google's Most Advanced Text To Image Model), fetches the image based on the prompt and displays it on the page.
+A user-friendly web application that leverages Google's Most Advanced Text To Image Model through the Imagen 2 API. Users can input prompts, and the application fetches and displays images generated based on those prompts.
 
 ## Explore Vertex AI
 
-- Go to Google's vertex AI and register a free account.
-- Vist vertex AI dashboard in google console and click on model garden on the left
-- In the filters, select vision and click on Imagen for Image Generation and Editing
-- Scroll down to find the API information
+1. **Create a Google Cloud Account:**
+   - Go to [Google Cloud](https://cloud.google.com/) and register for a free account.
 
-## How to run this app on your local env?
+2. **Access Vertex AI Dashboard:**
+   - Visit the [Vertex AI Dashboard](https://console.cloud.google.com/vertex-ai) in the Google Cloud Console.
+   
+3. **Navigate to Model Garden:**
+   - Click on "Model Garden" on the left-hand menu.
 
-- Clone the Repo, cd to the project folder and run the command ```npm install```
-- Set the env variables on the .env file
-    - On your google cloud console dashboard, make sure you are on the project you have created
-    - Toggle the menu bar on the left, click on APIs & Services, Search for <strong>Vertex AI</strong> and click on <strong>enable</strong>. This will allow your app to use all of Vertex AI's APIs, including Imagen2 API.
-    - create an .env file on the project's root folder.
-    - Go to google cloud console and create a project (if not already created) and copy the project id and paste it on VITE_GOOGLE_PROJECT_ID in the .env file
-    - Install gcloud CLI
-    - run the command - ```gcloud auth login``` to authorize your account
-    - run the command - ```gcloud auth print-access-token``` to get the access token and paste it on VITE_GCLOUD_AUTH_TOKEN in the .env file
-- Run the application - ```npm run dev```
+4. **Filter and Select Imagen:**
+   - Use the filters to select "Vision" and click on "Imagen" for Image Generation and Editing.
 
-## Possible Issues You Might Encounter
+5. **Retrieve API Information:**
+   - Scroll down to find the relevant API information.
 
-- the gcloud access token is valid only for 1 hour (60 minutes). So, you might want to run - ```gcloud auth print-access-token```  to regenerate it and update it on the .env file
-- Certain prompts doesn't comply with google's laws and it might throw an error. You can check the browser console if an error occurred.
+## How to Run ImaGenX Locally
 
-Any queries? Feel free to reach out to me at naveenrk.official@gmail.com or text me on [LinkedIn](https://linkedin.com/in/naveen-rk)
+1. **Clone the Repository:**
+   - Clone the repository to your local machine and navigate to the project folder.
+     ```bash
+     git clone https://github.com/Gokul-Raja84/ImaGenX-AI.git
+     cd ImaGenX-AI
+     ```
 
+2. **Install Dependencies:**
+   - Run the following command to install project dependencies.
+     ```bash
+     npm install
+     ```
 
-Thank you!!
+3. **Set Environment Variables:**
+   - Create a `.env` file in the project's root folder.
+
+   - On Google Cloud Console:
+     - Ensure you are on the correct project.
+     - Enable Vertex AI in the "APIs & Services" section.
+
+   - In the `.env` file:
+     ```env
+     VITE_GOOGLE_PROJECT_ID=your-project-id
+     VITE_GCLOUD_AUTH_TOKEN=your-access-token
+     ```
+
+   - Install gcloud CLI and run:
+     ```bash
+     gcloud auth login
+     gcloud auth print-access-token
+     ```
+
+4. **Run the Application:**
+   - Start the application locally.
+     ```bash
+     npm run dev
+     ```
+
+## Possible Issues and Solutions
+
+- **Token Expiry:**
+  - The gcloud access token is valid for only 1 hour. Regenerate it and update the `.env` file.
+    ```bash
+    gcloud auth print-access-token
+    ```
+
+- **Prompt Compliance:**
+  - Some prompts may not comply with Google's laws, leading to errors. Check the browser console for details.
+
+Feel free to reach out if you encounter any issues or have further questions. Thank you!
