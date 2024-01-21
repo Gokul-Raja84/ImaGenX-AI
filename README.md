@@ -20,6 +20,14 @@ A user-friendly web application that leverages Google's Most Advanced Text To Im
 5. **Retrieve API Information:**
    - Scroll down to find the relevant API information.
 
+Sample AI generated Images from ImaGenX-AI using Google's Imagen 2 API 
+
+![an-expansive-wheat-field-bathed-in-the-moonlight-upscaled (1)](https://github.com/Gokul-Raja84/ImaGenX-AI/assets/106546785/c4cbc75e-9e71-4091-a89c-931176c62ae4)
+![a-panoramic-view-of-a-mountain-range-under-a-star-upscaled](https://github.com/Gokul-Raja84/ImaGenX-AI/assets/106546785/5c483f5d-67c9-4543-8a39-076cfd3a41d6)
+![a-tropical-paradise-with-palm-trees-and-a-blue-o-upscaled](https://github.com/Gokul-Raja84/ImaGenX-AI/assets/106546785/3de9d1ca-3917-4026-9f99-975fe57a3347)
+
+
+
 ## How to Run ImaGenX Locally
 
 1. **Clone the Repository:**
